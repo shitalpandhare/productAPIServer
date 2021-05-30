@@ -1,0 +1,23 @@
+{
+  "name": "productapiserver",
+  "version": "1.0.0",
+  "description": "product api server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "nodemon app.js"
+  },
+  "author": "shital pandhare",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-router": "0.0.1",
+    "http": "0.0.1-security",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
